@@ -29,3 +29,7 @@ tests/*.dll
 tests/*.xml
 test-results
 .*.swp
+*.pdb
+/packages
+*.suo
+*.user
