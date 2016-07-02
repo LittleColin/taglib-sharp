@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taglib-sharp", "src\taglib-sharp.csproj", "{6B143A39-C7B2-4743-9917-92262C60E9A6}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taglib-sharp-ios", "taglib-sharp-ios\taglib-sharp-ios.csproj", "{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taglib-sharp-uwp", "taglib-sharp-uwp\taglib-sharp-uwp.csproj", "{021A4B0C-81EF-4262-AA80-866DAA7830EE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "taglib-sharp-core", "taglib-sharp-core\taglib-sharp-core.xproj", "{22D2D083-09A8-41B3-90AD-073470AAC8F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,14 +155,14 @@ Global
 		{1A9E96F1-F66A-4D86-9AE0-3DF852E3F504}.Release|x64.Build.0 = Release|Any CPU
 		{1A9E96F1-F66A-4D86-9AE0-3DF852E3F504}.Release|x86.ActiveCfg = Release|Any CPU
 		{1A9E96F1-F66A-4D86-9AE0-3DF852E3F504}.Release|x86.Build.0 = Release|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|ARM.ActiveCfg = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|ARM.Build.0 = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x64.ActiveCfg = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x64.Build.0 = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x86.ActiveCfg = AppStore|Any CPU
-		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x86.Build.0 = AppStore|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|ARM.Build.0 = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x64.Build.0 = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.AppStore|x86.Build.0 = Release|Any CPU
 		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F34F56-1D71-45F7-8FAA-5B8F2761DB17}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -201,6 +203,30 @@ Global
 		{021A4B0C-81EF-4262-AA80-866DAA7830EE}.Release|x64.Build.0 = Release|x64
 		{021A4B0C-81EF-4262-AA80-866DAA7830EE}.Release|x86.ActiveCfg = Release|x86
 		{021A4B0C-81EF-4262-AA80-866DAA7830EE}.Release|x86.Build.0 = Release|x86
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|x64.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.AppStore|x86.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|ARM.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|x64.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Debug|x86.Build.0 = Debug|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|ARM.Build.0 = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|x64.ActiveCfg = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|x64.Build.0 = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{22D2D083-09A8-41B3-90AD-073470AAC8F4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
